@@ -147,7 +147,7 @@ function colorThemeSet(){
     if(localStorage.getItem("colorTheme")){
         bgColor = localStorage.getItem("colorTheme")
     } else {
-        bgColor = light;
+        bgColor = "light";
     }
     //値に応じてスタイルを適用
     if(bgColor === "light"){
